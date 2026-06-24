@@ -1,2 +1,153 @@
-# slicehub-sales-intelligence-dashboard
-End-to-end Sales Intelligence Dashboard built using Power BI, SQL, Excel, DAX and Power Query.
+# SliceHub Sales Intelligence Dashboard
+
+## Project Overview
+
+This project presents an end-to-end Sales Intelligence Dashboard developed using Power BI, SQL, Excel, DAX, and Power Query.
+
+The objective was to transform raw sales transaction data into actionable business insights through interactive dashboards, while independently validating key business metrics using SQL.
+
+The dashboard provides visibility into sales performance, product profitability, branch performance, customer ordering behavior, and demand trends.
+
+---
+
+## Business Objectives
+
+* Monitor overall revenue and order performance
+* Identify top-performing products
+* Analyze sales contribution across branches and order channels
+* Understand customer demand patterns and seasonality
+* Validate Power BI KPIs using SQL queries
+
+---
+
+## Tools & Technologies
+
+* Power BI
+* DAX
+* Power Query
+* SQL
+* Microsoft Excel
+
+---
+
+## Dashboard Pages
+
+### 1. Executive Sales Overview
+
+This page provides a high-level view of business performance.
+
+Key metrics:
+
+* Total Revenue
+* Average Order Value
+* Total Orders
+* Online Sales Percentage
+
+Visuals:
+
+* Revenue Trend Over Time
+* Revenue by Branch
+* Revenue by Product Category
+* Revenue by Order Channel
+* Revenue by Payment Method
+
+Interactive filters:
+
+* Branch
+* Order Channel
+* Date Range
+
+---
+
+### 2. Product Performance & Demand Analysis
+
+This page focuses on product-level insights and customer demand patterns.
+
+Key metrics:
+
+* Highest Revenue Product
+* Highest Selling Product
+* Peak Demand Month
+* Peak Demand Day
+* Revenue of Top Product
+
+Visuals:
+
+* Top Products by Revenue
+* Top Products by Quantity
+* Orders by Day of Week
+* Orders by Month
+* Revenue vs Quantity Scatter Analysis
+
+Custom report tooltips provide additional product-level insights including:
+
+* Revenue
+* Quantity Sold
+* Total Orders
+* Product Category
+
+---
+
+## Key Insights
+
+* Thai Chicken Pizza generated the highest revenue.
+* Classic Deluxe Pizza achieved the highest sales volume.
+* July recorded the highest order volume.
+* Friday was the peak demand day.
+* Central Branch contributed the highest revenue.
+* Dine-in orders represented the largest sales channel.
+
+---
+
+## SQL Validation
+
+All dashboard KPIs were independently validated using SQL queries.
+
+Validation examples include:
+
+* Total Revenue
+* Average Order Value
+* Total Orders
+* Highest Revenue Product
+* Peak Demand Month
+* Peak Demand Day
+
+SQL scripts are available in the SQL folder.
+
+---
+
+## Repository Structure
+
+slicehub-sales-intelligence-dashboard
+
+├── Dataset
+
+├── Documentation
+
+├── Images
+
+├── PowerBI
+
+├── SQL
+
+└── README.md
+
+---
+
+## Dashboard Screenshots
+
+### Executive Sales Overview
+
+See: Images/Executive_Overview.png
+
+### Product Performance & Demand Analysis
+
+See: Images/Product_Performance.png
+
+---
+
+## Author
+
+Haroon Rashid
+
+Data Analyst | Power BI | SQL | Business Intelligence
